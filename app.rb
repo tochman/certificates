@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'sinatra/activerecord'
-require './certificate.rb'
+require './lib/certificate.rb'
 
 configure do
 	enable :sessions

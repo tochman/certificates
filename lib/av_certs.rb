@@ -8,7 +8,7 @@ require 'active_support/inflector'
 require 'date'
 require 'digest'
 require 'sinatra/activerecord'
-require './certificate'
+require './lib/certificate'
 
 
 @username = 'No Name'

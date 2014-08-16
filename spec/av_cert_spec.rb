@@ -1,4 +1,4 @@
-require_relative '../av_certs.rb' 
+require_relative '../lib/av_certs.rb'
 require 'spec_helper.rb' 
 
 describe 'write_to_cert' do	
